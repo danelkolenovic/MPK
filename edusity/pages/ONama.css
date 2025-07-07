@@ -1,0 +1,176 @@
+.onama-wrapper {
+  background-color: #f9fafb;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(to right, darkred, darkred);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  margin-top: 10px;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+.stat-card {
+  background: white;
+  text-align: center;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.stat-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.stat-icon {
+  width: 48px;
+  height: 48px;
+  color: darkred;
+  margin-bottom: 12px;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.stat-label {
+  color: #555;
+}
+
+.mission-vision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.mission-vision h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.mission-vision p {
+  margin-bottom: 12px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.values-section {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.values-section h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+}
+
+.value-card {
+  text-align: center;
+}
+
+.value-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.bg-blue {
+  background-color: whitesmoke;
+  color: red;
+}
+
+.bg-green {
+  background-color: whitesmoke;
+  color: darkred;
+}
+
+.bg-purple {
+  background-color: whitesmoke;
+  color: orangered;
+}
+
+.history-section {
+  margin-bottom: 60px;
+}
+
+.history-section h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.history-timeline .timeline-item {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.timeline-item .dot {
+  width: 12px;
+  height: 12px;
+  background: darkred;
+  border-radius: 50%;
+  margin-top: 6px;
+}
+
+.timeline-item h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.timeline-item p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mission-vision {
+    grid-template-columns: 1fr;
+  }
+}
